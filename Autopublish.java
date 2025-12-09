@@ -1,11 +1,11 @@
-package main.java.FloUnityMainBot.sonstiges;
+package Bot;
 
 import net.dv8tion.jda.api.entities.channel.ChannelType;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.api.events.message.MessageUpdateEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 
-public class autopublish extends ListenerAdapter {
+public class Autopublish extends ListenerAdapter {
 
     public void onMessageReceived(MessageReceivedEvent event) {
 
